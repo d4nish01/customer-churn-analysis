@@ -1,6 +1,6 @@
 # 📊 Customer Churn Analysis
 
-An end-to-end Data Analytics project focused on understanding customer churn behavior in the telecom industry. The project combines Python, SQL, and Power BI to clean data, analyze customer trends, visualize business metrics, and generate actionable insights for improving customer retention.
+An end-to-end **Data Analytics** project focused on understanding customer churn behavior in the telecommunications industry. The project leverages **Python, SQL, and Power BI** to clean and transform raw customer data, perform exploratory analysis, visualize key business metrics, and generate actionable insights to improve customer retention.
 
 ---
 
@@ -17,136 +17,201 @@ An end-to-end Data Analytics project focused on understanding customer churn beh
 
 ---
 
-## 📁 Dataset
+# 📁 Dataset
 
-**IBM Telco Customer Churn Dataset**
+This project uses the **IBM Telco Customer Churn Dataset**, one of the most widely used public datasets for customer churn analysis.
 
-The dataset contains customer demographics, subscription details, billing information, and churn status, enabling comprehensive customer behavior analysis.
+The dataset contains information about telecom customers including:
+
+- Customer Demographics
+- Customer ID
+- Gender
+- Senior Citizen Status
+- Partner & Dependents
+- Internet Services
+- Phone Services
+- Contract Type
+- Payment Method
+- Monthly Charges
+- Total Charges
+- Customer Tenure
+- Churn Status
+
+These attributes enable detailed customer segmentation, churn analysis, KPI reporting, and business intelligence.
+
+### Dataset Source
+
+The dataset is publicly available on Kaggle.
+
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
-## 📌 Project Objectives
+# 🎯 Project Objectives
 
-- Perform data cleaning and preprocessing
-- Explore customer demographics and service usage
-- Identify factors influencing customer churn
-- Analyze business metrics using SQL
-- Build an interactive Power BI dashboard
-- Generate business recommendations for customer retention
+- Clean and preprocess raw customer data.
+- Perform Exploratory Data Analysis (EDA).
+- Identify factors contributing to customer churn.
+- Analyze customer behavior using SQL.
+- Build an interactive Power BI dashboard.
+- Generate business recommendations for improving customer retention.
 
 ---
 
-## 🔄 Project Workflow
+# 🔄 Project Workflow
 
 ```
-Raw Dataset
-      │
-      ▼
-Data Cleaning (Python)
-      │
-      ▼
-Exploratory Data Analysis
-      │
-      ▼
-SQL Business Analysis
-      │
-      ▼
-Power BI Dashboard
-      │
-      ▼
-Business Insights
+IBM Telco Customer Churn Dataset
+               │
+               ▼
+      Data Cleaning (Python)
+               │
+               ▼
+ Exploratory Data Analysis (EDA)
+               │
+               ▼
+     SQL Business Analysis
+               │
+               ▼
+     Power BI Dashboard
+               │
+               ▼
+ Business Insights & Recommendations
 ```
 
 ---
 
-## 📊 Key Business Questions
+# 📊 Business Questions Answered
 
 - Which customers are most likely to churn?
-- How does contract type impact churn?
-- Which payment methods have the highest churn rate?
-- How does monthly billing affect customer retention?
-- Which services contribute to higher customer loyalty?
+- Which contract type has the highest churn rate?
+- How does customer tenure affect churn?
+- Which payment methods are associated with higher churn?
+- What is the impact of monthly charges on churn?
+- Which internet service has the highest customer attrition?
+- Which customer segments should be prioritized for retention?
 
 ---
 
-## 📈 Dashboard Features
+# 📈 Dashboard Features
 
 - Customer Churn Overview
+- KPI Cards
 - Churn by Contract Type
 - Churn by Internet Service
-- Monthly Charges Analysis
 - Customer Demographics
-- KPI Cards
-- Interactive Filters
+- Monthly Charges Analysis
+- Customer Tenure Analysis
+- Interactive Filters & Slicers
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 Customer-Churn-Analysis/
 │
 ├── data/
+│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│
 ├── notebooks/
+│   └── customer_churn_analysis.ipynb
+│
 ├── sql/
+│   └── churn_analysis_queries.sql
+│
 ├── dashboard/
+│   └── customer_churn_dashboard.pbix
+│
 ├── images/
+│   └── dashboard.png
+│
 ├── README.md
 └── requirements.txt
 ```
 
 ---
 
-## 💡 Key Insights
+# 💡 Key Insights
 
 - Month-to-month contracts exhibit the highest churn rate.
-- Customers with higher monthly charges are more likely to leave.
-- Electronic check is associated with higher churn compared to other payment methods.
+- Customers with higher monthly charges are more likely to churn.
+- Electronic Check payment method is associated with the highest churn.
 - Longer customer tenure significantly improves retention.
-- Fiber optic customers show higher churn than DSL customers.
+- Fiber Optic customers have higher churn than DSL users.
 
 ---
 
-## ⚙️ Installation
+# 📊 Business Recommendations
 
-Clone the repository:
+- Encourage customers to switch from month-to-month contracts to yearly plans.
+- Provide loyalty rewards for long-tenure customers.
+- Offer targeted retention campaigns for high-risk customers.
+- Improve customer support for Fiber Optic users.
+- Introduce personalized discounts for customers with high monthly charges.
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
 
 ```bash
-git clone https://github.com/your-username/customer-churn-analysis.git
+git clone https://github.com/d4nish01/customer-churn-analysis.git
 ```
 
-Install dependencies:
+Navigate into the project folder
+
+```bash
+cd customer-churn-analysis
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Launch the Jupyter Notebook and execute the analysis.
+Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Run the notebook and explore the analysis.
 
 ---
 
-## 📸 Dashboard Preview
+# 📸 Dashboard Preview
 
-> Add screenshots of your Power BI dashboard here.
+> Dashboard screenshots will be added soon.
 
 ---
 
-## 📄 Future Improvements
+# 📄 Future Improvements
 
 - Customer Lifetime Value (CLV) Analysis
-- Churn Prediction using Machine Learning
+- Machine Learning based Churn Prediction
 - Automated ETL Pipeline
-- Real-time Business Dashboard
+- Real-Time Business Dashboard
+- Cloud Deployment using Azure / AWS
 
 ---
 
-## 👨‍💻 Author
-
-
+# 👨‍💻 Author
 
 **Md Danish**
 
-- GitHub: https://github.com/d4nish01
-- LinkedIn: https://www.linkedin.com/in/md-danish-095868258/
+📧 Email: mddanish152004@gmail.com
+
+🐙 GitHub
+
+https://github.com/d4nish01
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/md-danish-095868258/
+
+---
 
 ## ⭐ If you found this project useful, consider giving it a star.
